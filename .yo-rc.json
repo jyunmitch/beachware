@@ -1,0 +1,56 @@
+{
+  "generator-jhipster": {
+    "blueprints": [
+      {
+        "name": "generator-jhipster-entando",
+        "version": "7.0.0"
+      }
+    ],
+    "otherModules": [
+      {
+        "name": "generator-jhipster-entando",
+        "version": "7.0.0"
+      }
+    ],
+    "applicationType": "microservice",
+    "baseName": "beachware",
+    "jhipsterVersion": "7.2.0",
+    "skipClient": true,
+    "withAdminUi": false,
+    "skipUserManagement": true,
+    "skipServer": false,
+    "skipCheckLengthOfIdentifier": false,
+    "skipFakeData": false,
+    "jhiPrefix": "jhi",
+    "entitySuffix": "",
+    "dtoSuffix": "DTO",
+    "testFrameworks": [],
+    "pages": [],
+    "creationTimestamp": 1652977174125,
+    "serviceDiscoveryType": false,
+    "reactive": false,
+    "authenticationType": "oauth2",
+    "packageName": "com.mycompany.myapp",
+    "serverPort": "8081",
+    "cacheProvider": "caffeine",
+    "enableHibernateCache": true,
+    "databaseType": "sql",
+    "devDatabaseType": "h2Disk",
+    "prodDatabaseType": "postgresql",
+    "buildTool": "maven",
+    "serverSideOptions": [],
+    "websocket": false,
+    "searchEngine": false,
+    "messageBroker": false,
+    "enableSwaggerCodegen": false,
+    "microserviceDependencies": "entando",
+    "bundleName": "beachware-bundle",
+    "dockerImageOrganization": "jyunmitchell",
+    "generateMicroFrontends": "always",
+    "enableTranslation": false,
+    "nativeLanguage": "en",
+    "jwtSecretKey": "NzVjZWIwYmNlMmI3YWUzYjIyNzZmOTc1NTE1MjQwMDFkMWQyNTViOWVkMjJjNDkyYTNkNGI5NGM0MWRhMTAzZjU5MTAxMWQ0OGEwNmI3MDZjMzk4MDMwNmViODkzODNjMDYxM2I5YzYzMmRiNjA4YTRhZTIwYThhMzViMDQ5Mjk=",
+    "enableGradleEnterprise": false,
+    "languages": ["en", "fr"]
+  }
+}
