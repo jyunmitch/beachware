@@ -160,7 +160,9 @@ Desktop.ini
 ######################
 # Entando
 ######################
-/bundle/
+/bundle/plugins/
+/bundle/resources/
+/bundle/ui/
 !/bundle/descriptor.yaml
 .entando-placeholder
 
